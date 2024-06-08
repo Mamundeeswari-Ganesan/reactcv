@@ -53,7 +53,7 @@ export default class Introduction extends Component {
                           <p>
                             <a
                               className="btn btn-primary btn-learn"
-                              href="https://github.com/IRasmivan"
+                              href="https://github.com/Mamundeeswari-Ganesan"
                               target="_blank"
                               rel="noopener noreferrer"
                             >

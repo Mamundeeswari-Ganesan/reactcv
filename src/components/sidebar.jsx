@@ -26,11 +26,11 @@ export default class Sidebar extends Component {
                 style={{ backgroundImage: "url(images/about.jpg)" }}
               />
               <h1 id="colorlib-logo">
-                <a href="index.html">Rasmivan Ilangovan</a>
+                <a href="index.html">Mamundeeswari Ganesan</a>
               </h1>
               <span className="email">
                 <i className="icon-mail" />
-                rasmivancse@gmail.com
+                mamundeeswariganesane@gmail.com
               </span>
               <span className="email">
                 <i className="icon-phone" /> +44-745-966-9676
@@ -110,7 +110,7 @@ export default class Sidebar extends Component {
                 </li>
                 <li>
                   <a
-                    href="https://github.com/IRasmivan"
+                    href="https://github.com/Mamundeeswari-Ganesan"
                     target="_blank"
                     rel="noopener noreferrer"
                   >
