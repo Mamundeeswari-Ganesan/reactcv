@@ -23,7 +23,7 @@ export default class Sidebar extends Component {
             <div className="text-center">
               <div
                 className="author-img"
-                style={{ backgroundImage: "url(images/about.jpg)" }}
+                style={{ backgroundImage: "url(images/about.jpeg)" }}
               />
               <h1 id="colorlib-logo">
                 <a href="index.html">Mamundeeswari Ganesan</a>
@@ -31,12 +31,6 @@ export default class Sidebar extends Component {
               <span className="email">
                 <i className="icon-mail" />
                 mamundeeswariganesane@gmail.com
-              </span>
-              <span className="email">
-                <i className="icon-phone" /> +44-745-966-9676
-              </span>
-              <span className="number">
-                <i className="icon-whatsapp" /> +91-848-953-2988
               </span>
             </div>
             <nav id="colorlib-main-menu" role="navigation" className="navbar">
@@ -142,11 +136,6 @@ export default class Sidebar extends Component {
                     Colorlib
                   </a>{" "}
                   for inspiration
-                </small>
-              </p>
-              <p>
-                <small>
-                  Automated build using Docker and deployment using Jenkins
                 </small>
               </p>
             </div>

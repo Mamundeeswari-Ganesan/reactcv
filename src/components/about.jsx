@@ -28,12 +28,8 @@ const style = {
                       <span className="heading-meta">About Me</span>
                       <h2 className="colorlib-heading">Who Am I?</h2>
                       <p>
-                        I have {(new Date().getFullYear()) - 2009}+ years of IT experience. I am a Java & Scala
-                        microservice developer, Angular & React UI developer, I
-                        do build and maintain environment using Git, Jenkins,
-                        Docker, K8s, Nomad. I am a Full Stack Developer in short.
-                        Currently I'm learning No-SQL DB (Mongo). I love making
-                        websites, service building and to automate everything.
+                        I have {(new Date().getFullYear()) - 2022}+ years of IT experience. 
+                        I am a frontend developer with react and nextJS experience. I work with visual studio code to develope web appliction which are mobile frendly view.
                       </p>
                       <p>
                         I have started reflecting my ideas through
@@ -64,21 +60,6 @@ const style = {
             </div>
             <div className="row row-pt-md">
               <div className="col-md-4 text-center animate-box">
-                <div className="services color-1">
-                  <span className="icon">
-                    <i className="icon-code" />
-                  </span>
-                  <div className="desc">
-                    <h3>Microservice Development </h3>
-                    <p>
-                      I have massive experience in building microservices using
-                      Java Spring Boot, Spring Batch. I've detailed
-                      understanding of Microservice architecture.
-                    </p>
-                  </div>
-                </div>
-              </div>
-              <div className="col-md-4 text-center animate-box">
                 <div className="services color-3">
                   <span className="icon">
                     <i className="icon-globe" />
@@ -86,45 +67,13 @@ const style = {
                   <div className="desc">
                     <h3>Web Development</h3>
                     <p>
-                      I have developed websites in Angular and React. This page
+                      I have developed websites in React and Next JS. This page
                       is developed using React. I use NPM to manage build and
                       package for web development.
                     </p>
                   </div>
                 </div>
               </div>
-              <div className="col-md-4 text-center animate-box">
-                <div className="services color-5">
-                  <span className="icon">
-                    <i className="icon-briefcase" />
-                  </span>
-                  <div className="desc">
-                    <h3>Dev Ops</h3>
-                    <p>
-                      I automate my build and deployment using Git, Jenkins,
-                      Docker, K8s to get the job done. I am currently using
-                      Azure and AWS in my daily job.
-                    </p>
-                  </div>
-                </div>
-              </div>
-
-              <div className="col-md-4 text-center animate-box">
-                <div className="services color-2">
-                  <span className="icon">
-                    <i className="icon-phone3" />
-                  </span>
-                  <div className="desc">
-                    <h3>Mobile Development</h3>
-                    <p>
-                      I have developed an app in iOS using Objective-C and in
-                      Android using Java. I've basic knowledge of App
-                      development for iOS and Android.
-                    </p>
-                  </div>
-                </div>
-              </div>
-
               <div className="col-md-4 text-center animate-box">
                 <div className="services color-4">
                   <span className="icon">
@@ -133,10 +82,7 @@ const style = {
                   <div className="desc">
                     <h3>Frameworks/Tools</h3>
                     <p>
-                      Built Rest-API using django framework in Python. I am
-                      Using Groovy script to write Jenkins pipeline. Have vast
-                      knowledge in SQL Service, have tuned perfomance and
-                      designed datamodel.
+                    Developed dynamic and responsive web applications using the React.js framework in JavaScript. I am proficient in writing automated tests and CI/CD pipelines using Jenkins and Groovy scripts. I have extensive experience with CSS for styling, and I have optimized performance and designed intuitive UI/UX interfaces.
                     </p>
                   </div>
                 </div>
@@ -149,12 +95,7 @@ const style = {
                   <div className="desc">
                     <h3>Hobby</h3>
                     <p>
-                      Running is my passion! I am a marathoner and an ultra
-                      marathoner. My longest distance marathon is 100 miles
-                      covered in 35 hours and planning to run 200 miles. I am
-                      currently training for triathlon. I've participated in 56
-                      marathons till date and would like to complete 1000+
-                      marathons before i kick the bucket.
+                      Running is my passion! I am a half-marathon runner and participate in local parkruns on weekends. I have pollen allergies, so I minimize running during the summer. In winter, I typically run five days a week.
                     </p>
                   </div>
                 </div>

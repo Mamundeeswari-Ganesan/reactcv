@@ -3,7 +3,6 @@ import "./App.css";
 import Sidebar from "./components/sidebar";
 import Introduction from "./components/introduction";
 import About from "./components/about";
-import Blog from "./components/blog";
 import Timeline from "./components/timeline";
 
 class App extends Component {
@@ -16,8 +15,8 @@ class App extends Component {
             <Introduction />
             <About />
             <Timeline />
-            <Blog />
-            {/* <Projects />
+            {/*<Blog />
+             <Projects />
             <Blog /> */}
           </div>
         </div>

@@ -28,10 +28,10 @@ export default class Timeline extends Component {
                       </div>
                       <div className="timeline-label">
                         <h2>
-                          <a href="#">Working at ITV</a> <span>2023 June - present</span>
+                          <a href="#">Work at M&S</a> <span>2022 Sept - 2024 April</span>
                         </h2>
                         <p>
-                          Scala Engineer where I build webservice to consume and process Millions of data. I build application using scala, React and deploy them as docker container using nomad as container orchestration and GitHub Action for Continuous Integration.                  
+                          Frontend engineer working for marksandspencers.com where have implemented a number of feature.
                         </p>
                       </div>
                     </div>
@@ -46,10 +46,10 @@ export default class Timeline extends Component {
                       </div>
                       <div className="timeline-label">
                         <h2>
-                          <a href="#">Work at Intent HQ</a> <span>2021 Sept - 2023 June</span>
+                          <a href="#">Work at Multiple Schools</a> <span>2013 - 2022 Aug</span>
                         </h2>
                         <p>
-                          Scala Engineer where I build webservice to consume and process Millions of data. I build application using scala, React and deploy them as docker container using nomad as container orchestration and GitHub Action for Continuous Integration.                  
+                          Worked in multiple school teaching computer science, math and robotics from key stage 5 to 11+
                         </p>
                       </div>
                     </div>
@@ -64,19 +64,10 @@ export default class Timeline extends Component {
                       </div>
                       <div className="timeline-label">
                         <h2>
-                          <a href="#">Work at TCS</a> <span>2008 - 2021 Aug</span>
+                          <a href="#">Masters at Anna University</a> <span>2010 - 2013</span>
                         </h2>
                         <p>
-                          I have started my career with TCS on Dec, 2008. My key
-                          expertise area is creating sustainable and flexible
-                          application for Web, Desktop & Mobile hosting in
-                          cloud. I've worked with programming languages like
-                          Java, C#, Python; scripting languages like
-                          Javascripts, typescript & VBScript; I work with
-                          container technology like Docker and
-                          container-orchrastation technologies like K8s and use
-                          CI/CD pipelines to do rapid development; I work with
-                          cloud platform like Azure and AWS.
+                        I completed my under-graduation degree of BCA. Where i learned many programing language like C, C++ and Java.
                         </p>
                       </div>
                     </div>
@@ -92,16 +83,12 @@ export default class Timeline extends Component {
                       <div className="timeline-label">
                         <h2>
                           <a href="#">
-                            Undergraduation at Pondicherry University
+                            Undergraduation at Bharathidasan University
                           </a>{" "}
-                          <span>2004-2008</span>
+                          <span>2007-2010</span>
                         </h2>
                         <p>
-                          I completed my under-graduation degree of B.Tech in
-                          C.S.E.(Computer Science and Engineering). My final
-                          year project was a web-service develoved in C# using
-                          .Net framework demonstrate SOA (Service Oriented
-                          Architecture).
+                          I completed my under-graduation degree of BCA. Where i learned many programing language like C, C++ and Java.
                         </p>
                       </div>
                     </div>
@@ -117,7 +104,7 @@ export default class Timeline extends Component {
                       <div className="timeline-label">
                         <h2>
                           <a href="#">Higher Education</a>{" "}
-                          <span>2002-2004</span>
+                          <span>2005-2007</span>
                         </h2>
                         <p>
                           I have completed my higher secondary education with
