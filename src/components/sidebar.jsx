@@ -68,25 +68,7 @@ export default class Sidebar extends Component {
               <ul>
                 <li>
                   <a
-                    href="https://www.facebook.com/rasmivan.ilangovan"
-                    target="_blank"
-                    rel="noopener noreferrer"
-                  >
-                    <i className="icon-facebook2" />
-                  </a>
-                </li>
-                <li>
-                  <a
-                    href="https://twitter.com/rasmivan"
-                    target="_blank"
-                    rel="noopener noreferrer"
-                  >
-                    <i className="icon-twitter2" />
-                  </a>
-                </li>
-                <li>
-                  <a
-                    href="https://www.instagram.com/rasmivan/"
+                    href="https://www.instagram.com/madhu_rasmi_vibes/"
                     target="_blank"
                     rel="noopener noreferrer"
                   >
@@ -95,7 +77,7 @@ export default class Sidebar extends Component {
                 </li>
                 <li>
                   <a
-                    href="https://www.linkedin.com/in/rasmivan-ilangovan-a9853b70/"
+                    href="https://www.linkedin.com/in/mamundeeswari-ganesan/"
                     target="_blank"
                     rel="noopener noreferrer"
                   >
@@ -111,15 +93,6 @@ export default class Sidebar extends Component {
                     <i className="icon-github" />
                   </a>
                 </li>
-                {/* <li>
-                  <a
-                    href="https://medium.com/@dhruv.barochia34788"
-                    target="_blank"
-                    rel="noopener noreferrer"
-                  >
-                    <i className="icon-blogger2" />
-                  </a>
-                </li> */}
               </ul>
             </nav>
             <div className="colorlib-footer">
