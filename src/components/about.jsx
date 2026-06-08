@@ -28,15 +28,16 @@ const style = {
                       <span className="heading-meta">About Me</span>
                       <h2 className="colorlib-heading">Who Am I?</h2>
                       <p>
-                        I have {(new Date().getFullYear()) - 2022}+ years of IT experience. 
-                        I am a frontend developer with react and nextJS experience. I work with visual studio code to develope web appliction which are mobile frendly view.
+                        I am a Software Engineer and Digital Transformation Specialist with {(new Date().getFullYear()) - 2022}+ years of software engineering experience across backend and frontend systems. I focus on building scalable services, automation workflows, and reliable delivery pipelines using Python, AWS, and modern engineering practices.
                       </p>
                       <p>
-                        I have started reflecting my ideas through
-                        websites/webpages, eventhough I have developed many
-                        websites in my career this is new for me to express my
-                        own thought through this media, if you have any
-                        suggestion you can write me back.
+                        I have worked across media and retail technology, contributing to cloud-native platforms, microservices, REST APIs, CI/CD, and test automation. My recent work includes media supply chain and fulfillment initiatives, where I have helped reduce manual intervention and improve operational efficiency through practical engineering solutions.
+                      </p>
+                      <p>
+                        I was nominated for the Apollo Inspiration Award and
+                        received the Pure Excellence Award for technical
+                        contributions. I also enjoy prototyping innovation ideas,
+                        including LLM-based content discovery concepts.
                       </p>
                     </div>
                   </div>
@@ -67,9 +68,9 @@ const style = {
                   <div className="desc">
                     <h3>Web Development</h3>
                     <p>
-                      I have developed websites in React and Next JS. This page
-                      is developed using React. I use NPM to manage build and
-                      package for web development.
+                      I build responsive applications with React, Next.js,
+                      TypeScript, and modern UI practices, delivering
+                      consistent experiences across desktop and mobile.
                     </p>
                   </div>
                 </div>
@@ -80,9 +81,11 @@ const style = {
                     <i className="icon-tag" />
                   </span>
                   <div className="desc">
-                    <h3>Frameworks/Tools</h3>
+                    <h3>Backend & Cloud</h3>
                     <p>
-                    Developed dynamic and responsive web applications using the React.js framework in JavaScript. I am proficient in writing automated tests and CI/CD pipelines using Jenkins and Groovy scripts. I have extensive experience with CSS for styling, and I have optimized performance and designed intuitive UI/UX interfaces.
+                      I design and implement backend services using Python,
+                      Java, Spring Boot, and AWS, with strong focus on
+                      microservices architecture, integration, and reliability.
                     </p>
                   </div>
                 </div>
@@ -93,11 +96,36 @@ const style = {
                     <i className="icon-stopwatch" />
                   </span>
                   <div className="desc">
-                    <h3>Hobby</h3>
+                    <h3>Quality & Delivery</h3>
                     <p>
-                      Running is my passion! I am a half-marathon runner and participate in local parkruns on weekends. I have pollen allergies, so I minimize running during the summer. In winter, I typically run five days a week.
+                      I apply Agile delivery, CI/CD, code quality gates,
+                      and testing strategies including unit and end-to-end
+                      testing to ship stable production software.
                     </p>
                   </div>
+                </div>
+              </div>
+            </div>
+            <div className="row">
+              <div className="col-md-12 animate-box" data-animate-effect="fadeInLeft">
+                <div className="about-desc" style={{ marginTop: "10px" }}>
+                  <span className="heading-meta">Technical Skills</span>
+                  <h2 className="colorlib-heading">Core Stack</h2>
+                  <p>
+                    <strong>Languages & Frameworks:</strong> Python, Java,
+                    JavaScript, TypeScript, React, Next.js, Spring Boot,
+                    Spring Cloud Contract
+                  </p>
+                  <p>
+                    <strong>Cloud & Tools:</strong> AWS, SDVI Rally, GraphQL,
+                    MongoDB, Git, GitHub Actions, CI/CD, New Relic
+                  </p>
+                  <p>
+                    <strong>Engineering Practices:</strong> Microservices
+                    architecture, REST APIs, system integration, unit testing,
+                    end-to-end testing, code coverage, Agile delivery,
+                    cross-functional collaboration
+                  </p>
                 </div>
               </div>
             </div>

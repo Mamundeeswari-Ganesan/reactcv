@@ -75,12 +75,12 @@ export default class Introduction extends Component {
                         <div className="desc">
                           <h1>
                             I rarely <br />
-                            Write ...{" "}
+                            Write, But there are few in my linkedin posts ...{" "}
                           </h1>
                           <p>
                             <a
                               className="btn btn-primary btn-learn"
-                              href="https://irasmivan.github.io/blog/#/"
+                              href="https://www.linkedin.com/in/mamundeeswari-ganesan/"
                               target="_blank"
                               rel="noopener noreferrer"
                             >
