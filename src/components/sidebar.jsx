@@ -30,7 +30,7 @@ export default class Sidebar extends Component {
               </h1>
               <span className="email">
                 <i className="icon-mail" />
-                mamundeeswariganesane@gmail.com
+                mamundeeswariganesan@gmail.com
               </span>
             </div>
             <nav id="colorlib-main-menu" role="navigation" className="navbar">

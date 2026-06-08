@@ -28,10 +28,10 @@ export default class Timeline extends Component {
                       </div>
                       <div className="timeline-label">
                         <h2>
-                          <a href="#">Work at M&S</a> <span>2022 Sept - 2024 April</span>
+                          <a href="#">Software Engineer - ITV Plc</a> <span>Apr 2025 - Present</span>
                         </h2>
                         <p>
-                          Frontend engineer working for marksandspencers.com where have implemented a number of feature.
+                          Building backend solutions in Python and AWS for media operations, with strong focus on maintainability, testing, and delivery through Agile and CI/CD workflows.
                         </p>
                       </div>
                     </div>
@@ -46,10 +46,12 @@ export default class Timeline extends Component {
                       </div>
                       <div className="timeline-label">
                         <h2>
-                          <a href="#">Work at Multiple Schools</a> <span>2013 - 2022 Aug</span>
+                          <a href="#">Mid-Level Accelerator - Code First Girls</a> <span>Apr 2026 - Present</span>
                         </h2>
                         <p>
-                          Worked in multiple school teaching computer science, math and robotics from key stage 5 to 11+
+                          Advancing cloud-native Python architecture,
+                          CI/CD practices, and scalable system design through
+                          an intensive transition program for mid-senior roles.
                         </p>
                       </div>
                     </div>
@@ -64,10 +66,12 @@ export default class Timeline extends Component {
                       </div>
                       <div className="timeline-label">
                         <h2>
-                          <a href="#">Masters at Anna University</a> <span>2010 - 2013</span>
+                          <a href="#">Career Gap / Upskilling</a> <span>May 2024 - Mar 2025</span>
                         </h2>
                         <p>
-                        I completed my under-graduation degree of BCA. Where i learned many programing language like C, C++ and Java.
+                          Completed intensive programs in SQL, JavaScript,
+                          and Python & Apps to strengthen data and application
+                          engineering capabilities.
                         </p>
                       </div>
                     </div>
@@ -82,13 +86,13 @@ export default class Timeline extends Component {
                       </div>
                       <div className="timeline-label">
                         <h2>
-                          <a href="#">
-                            Undergraduation at Bharathidasan University
-                          </a>{" "}
-                          <span>2007-2010</span>
+                          <a href="#">Graduate Software Engineer - Frontend, M&S</a> <span>2023 - 2024</span>
                         </h2>
                         <p>
-                          I completed my under-graduation degree of BCA. Where i learned many programing language like C, C++ and Java.
+                          Delivered responsive features with HTML, CSS,
+                          TypeScript, and Next.js; supported GraphQL
+                          federation adoption and improved reliability through
+                          automated testing and CI/CD improvements.
                         </p>
                       </div>
                     </div>
@@ -103,15 +107,93 @@ export default class Timeline extends Component {
                       </div>
                       <div className="timeline-label">
                         <h2>
-                          <a href="#">Higher Education</a>{" "}
-                          <span>2005-2007</span>
+                          <a href="#">Graduate Software Engineer - Backend, M&S</a> <span>2022 - 2023</span>
                         </h2>
                         <p>
-                          I have completed my higher secondary education with
-                          major subjects as Physics,Chemistry, Maths & Computer
-                          Science. During my school time, I have developed
-                          interest in computer programming by introduction to C,
-                          C++, Javascripts & HTML to build softwares.
+                          Built Java and Spring Boot microservices for customer
+                          engagement workflows, improved observability and
+                          deployment readiness, and contributed to reliable REST
+                          API integration in an Agile environment.
+                        </p>
+                      </div>
+                    </div>
+                  </article>
+                  <article
+                    className="timeline-entry animate-box"
+                    data-animate-effect="fadeInLeft"
+                  >
+                    <div className="timeline-entry-inner">
+                      <div className="timeline-icon color-6">
+                        <i className="icon-pin-outline" />
+                      </div>
+                      <div className="timeline-label">
+                        <h2>
+                          <a href="#">Internship - Newson.io</a> <span>2021</span>
+                        </h2>
+                        <p>
+                          Collaborated with cross-functional teams on product
+                          features, experimentation, and market insights to
+                          improve engagement and conversion.
+                        </p>
+                      </div>
+                    </div>
+                  </article>
+                  <article
+                    className="timeline-entry animate-box"
+                    data-animate-effect="fadeInLeft"
+                  >
+                    <div className="timeline-entry-inner">
+                      <div className="timeline-icon color-7">
+                        <i className="icon-pin-outline" />
+                      </div>
+                      <div className="timeline-label">
+                        <h2>
+                          <a href="#">Teacher - Multiple Schools and College</a> <span>2013 - 2022</span>
+                        </h2>
+                        <p>
+                          Taught Computer Science, Mathematics, and Robotics,
+                          building strong communication and mentoring skills
+                          that now support cross-functional engineering work.
+                        </p>
+                      </div>
+                    </div>
+                  </article>
+                  <article
+                    className="timeline-entry animate-box"
+                    data-animate-effect="fadeInLeft"
+                  >
+                    <div className="timeline-entry-inner">
+                      <div className="timeline-icon color-3">
+                        <i className="icon-pin-outline" />
+                      </div>
+                      <div className="timeline-label">
+                        <h2>
+                          <a href="#">Master of Computer Application - Anna University</a> <span>2010 - 2013</span>
+                        </h2>
+                        <p>
+                          Completed postgraduate studies in computer
+                          applications and software fundamentals.
+                        </p>
+                      </div>
+                    </div>
+                  </article>
+                  <article
+                    className="timeline-entry animate-box"
+                    data-animate-effect="fadeInTop"
+                  >
+                    <div className="timeline-entry-inner">
+                      <div className="timeline-icon color-4">
+                        <i className="icon-pin-outline" />
+                      </div>
+                      <div className="timeline-label">
+                        <h2>
+                          <a href="#">Bachelor of Computer Applications - Bharathidasan University</a>{" "}
+                          <span>2007 - 2010</span>
+                        </h2>
+                        <p>
+                          Built core programming skills and software
+                          development foundations that shaped my engineering
+                          career.
                         </p>
                       </div>
                     </div>
