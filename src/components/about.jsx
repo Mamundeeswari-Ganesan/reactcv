@@ -1,21 +1,10 @@
 import React, { Component } from "react";
-import GoogleAd from './google_ad';
 
 export default class About extends Component {
   render() {
-// create a style object that is applied
-// to the div wrapping the adSense code
-// no styling required - just leave style object empty
-const style = {
-  marginTop: '15px',
-  marginBottom: '20px'
-};
-
-    
-
     return (
       <div>
-        <section className="colorlib-about" data-section="about">
+        <section id="colorlib-about" className="colorlib-about" data-section="about">
           <div className="colorlib-narrow-content">
             <div className="row">
               <div className="col-md-12">
@@ -111,21 +100,58 @@ const style = {
                 <div className="about-desc" style={{ marginTop: "10px" }}>
                   <span className="heading-meta">Technical Skills</span>
                   <h2 className="colorlib-heading">Core Stack</h2>
-                  <p>
-                    <strong>Languages & Frameworks:</strong> Python, Java,
-                    JavaScript, TypeScript, React, Next.js, Spring Boot,
-                    Spring Cloud Contract
-                  </p>
-                  <p>
-                    <strong>Cloud & Tools:</strong> AWS, SDVI Rally, GraphQL,
-                    MongoDB, Git, GitHub Actions, CI/CD, New Relic
-                  </p>
-                  <p>
-                    <strong>Engineering Practices:</strong> Microservices
-                    architecture, REST APIs, system integration, unit testing,
-                    end-to-end testing, code coverage, Agile delivery,
-                    cross-functional collaboration
-                  </p>
+                  <div className="skills-grid">
+                    <div className="skill-group">
+                      <h3 className="skill-group-title">
+                        <i className="icon-code skill-group-icon" />
+                        Languages & Frameworks
+                      </h3>
+                      <div className="skill-chip-list">
+                        <span className="skill-chip">Python</span>
+                        <span className="skill-chip">Java</span>
+                        <span className="skill-chip">JavaScript</span>
+                        <span className="skill-chip">TypeScript</span>
+                        <span className="skill-chip">React</span>
+                        <span className="skill-chip">Next.js</span>
+                        <span className="skill-chip">Spring Boot</span>
+                        <span className="skill-chip">Spring Cloud Contract</span>
+                      </div>
+                    </div>
+
+                    <div className="skill-group">
+                      <h3 className="skill-group-title">
+                        <i className="icon-cloud-storage skill-group-icon" />
+                        Cloud & Tools
+                      </h3>
+                      <div className="skill-chip-list">
+                        <span className="skill-chip">AWS</span>
+                        <span className="skill-chip">SDVI Rally</span>
+                        <span className="skill-chip">GraphQL</span>
+                        <span className="skill-chip">MongoDB</span>
+                        <span className="skill-chip">Git</span>
+                        <span className="skill-chip">GitHub Actions</span>
+                        <span className="skill-chip">CI/CD</span>
+                        <span className="skill-chip">New Relic</span>
+                      </div>
+                    </div>
+
+                    <div className="skill-group">
+                      <h3 className="skill-group-title">
+                        <i className="icon-cog skill-group-icon" />
+                        Engineering Practices
+                      </h3>
+                      <div className="skill-chip-list">
+                        <span className="skill-chip">Microservices architecture</span>
+                        <span className="skill-chip">REST APIs</span>
+                        <span className="skill-chip">System integration</span>
+                        <span className="skill-chip">Unit testing</span>
+                        <span className="skill-chip">End-to-end testing</span>
+                        <span className="skill-chip">Code coverage</span>
+                        <span className="skill-chip">Agile delivery</span>
+                        <span className="skill-chip">Cross-functional collaboration</span>
+                      </div>
+                    </div>
+                  </div>
                 </div>
               </div>
             </div>

@@ -4,7 +4,7 @@ export default class Timeline extends Component {
   render() {
     return (
       <div>
-        <section className="colorlib-experience" data-section="timeline">
+        <section id="colorlib-timeline" className="colorlib-experience" data-section="timeline">
           <div className="colorlib-narrow-content">
             <div className="row">
               <div
@@ -28,7 +28,7 @@ export default class Timeline extends Component {
                       </div>
                       <div className="timeline-label">
                         <h2>
-                          <a href="#">Software Engineer - ITV Plc</a> <span>Apr 2025 - Present</span>
+                          <span>Software Engineer - ITV Plc</span> <span>Apr 2025 - Present</span>
                         </h2>
                         <p>
                           Building backend solutions in Python and AWS for media operations, with strong focus on maintainability, testing, and delivery through Agile and CI/CD workflows.
@@ -46,7 +46,7 @@ export default class Timeline extends Component {
                       </div>
                       <div className="timeline-label">
                         <h2>
-                          <a href="#">Mid-Level Accelerator - Code First Girls</a> <span>Apr 2026 - Present</span>
+                          <span>Mid-Level Accelerator - Code First Girls</span> <span>Apr 2026 - Present</span>
                         </h2>
                         <p>
                           Advancing cloud-native Python architecture,
@@ -66,7 +66,7 @@ export default class Timeline extends Component {
                       </div>
                       <div className="timeline-label">
                         <h2>
-                          <a href="#">Career Gap / Upskilling</a> <span>May 2024 - Mar 2025</span>
+                          <span>Career Gap / Upskilling</span> <span>May 2024 - Mar 2025</span>
                         </h2>
                         <p>
                           Completed intensive programs in SQL, JavaScript,
@@ -86,7 +86,7 @@ export default class Timeline extends Component {
                       </div>
                       <div className="timeline-label">
                         <h2>
-                          <a href="#">Graduate Software Engineer - Frontend, M&S</a> <span>2023 - 2024</span>
+                          <span>Graduate Software Engineer - Frontend, M&S</span> <span>2023 - 2024</span>
                         </h2>
                         <p>
                           Delivered responsive features with HTML, CSS,
@@ -107,7 +107,7 @@ export default class Timeline extends Component {
                       </div>
                       <div className="timeline-label">
                         <h2>
-                          <a href="#">Graduate Software Engineer - Backend, M&S</a> <span>2022 - 2023</span>
+                          <span>Graduate Software Engineer - Backend, M&S</span> <span>2022 - 2023</span>
                         </h2>
                         <p>
                           Built Java and Spring Boot microservices for customer
@@ -128,7 +128,7 @@ export default class Timeline extends Component {
                       </div>
                       <div className="timeline-label">
                         <h2>
-                          <a href="#">Internship - Newson.io</a> <span>2021</span>
+                          <span>Internship - Newson.io</span> <span>2021</span>
                         </h2>
                         <p>
                           Collaborated with cross-functional teams on product
@@ -148,7 +148,7 @@ export default class Timeline extends Component {
                       </div>
                       <div className="timeline-label">
                         <h2>
-                          <a href="#">Teacher - Multiple Schools and College</a> <span>2013 - 2022</span>
+                          <span>Teacher - Multiple Schools and College</span> <span>2013 - 2022</span>
                         </h2>
                         <p>
                           Taught Computer Science, Mathematics, and Robotics,
@@ -168,7 +168,7 @@ export default class Timeline extends Component {
                       </div>
                       <div className="timeline-label">
                         <h2>
-                          <a href="#">Master of Computer Application - Anna University</a> <span>2010 - 2013</span>
+                          <span>Master of Computer Application - Anna University</span> <span>2010 - 2013</span>
                         </h2>
                         <p>
                           Completed postgraduate studies in computer
@@ -187,7 +187,7 @@ export default class Timeline extends Component {
                       </div>
                       <div className="timeline-label">
                         <h2>
-                          <a href="#">Bachelor of Computer Applications - Bharathidasan University</a>{" "}
+                          <span>Bachelor of Computer Applications - Bharathidasan University</span>{" "}
                           <span>2007 - 2010</span>
                         </h2>
                         <p>

@@ -5,25 +5,25 @@ export default class Sidebar extends Component {
     return (
       <div>
         <div>
-          <a
-            href="#"
+          <button
+            type="button"
             className="js-colorlib-nav-toggle colorlib-nav-toggle"
             data-toggle="collapse"
             data-target="#navbar"
             aria-expanded="false"
             aria-controls="navbar"
+            aria-label="Toggle navigation"
           >
-            <i />
-          </a>
+            <i aria-hidden="true" />
+          </button>
           <aside
             id="colorlib-aside"
-            role="complementary"
             className="border js-fullheight"
           >
             <div className="text-center">
               <div
                 className="author-img"
-                style={{ backgroundImage: "url(images/about.jpeg)" }}
+                style={{ backgroundImage: "url(images/author.png)" }}
               />
               <h1 id="colorlib-logo">
                 <a href="index.html">Mamundeeswari Ganesan</a>
@@ -37,12 +37,12 @@ export default class Sidebar extends Component {
               <div id="navbar" className="collapse">
                 <ul>
                   <li className="active">
-                    <a href="#" data-nav-section="home">
+                    <a href="#colorlib-hero" data-nav-section="home">
                       Introduction
                     </a>
                   </li>
                   <li>
-                    <a href="#" data-nav-section="about">
+                    <a href="#colorlib-about" data-nav-section="about">
                       About
                     </a>
                   </li>
@@ -52,12 +52,12 @@ export default class Sidebar extends Component {
                     </a>
                   </li>*/}
                   <li>
-                    <a href="#" data-nav-section="blog">
+                    <a href="https://www.linkedin.com/in/mamundeeswari-ganesan/" target="_blank" rel="noopener noreferrer">
                       Blog
                     </a>
                   </li> 
                   <li>
-                    <a href="#" data-nav-section="timeline">
+                    <a href="#colorlib-timeline" data-nav-section="timeline">
                       Timeline
                     </a>
                   </li>
@@ -71,6 +71,7 @@ export default class Sidebar extends Component {
                     href="https://www.instagram.com/madhu_rasmi_vibes/"
                     target="_blank"
                     rel="noopener noreferrer"
+                    aria-label="Instagram profile"
                   >
                     <i className="icon-instagram" />
                   </a>
@@ -80,6 +81,7 @@ export default class Sidebar extends Component {
                     href="https://www.linkedin.com/in/mamundeeswari-ganesan/"
                     target="_blank"
                     rel="noopener noreferrer"
+                    aria-label="LinkedIn profile"
                   >
                     <i className="icon-linkedin2" />
                   </a>
@@ -89,6 +91,7 @@ export default class Sidebar extends Component {
                     href="https://github.com/Mamundeeswari-Ganesan"
                     target="_blank"
                     rel="noopener noreferrer"
+                    aria-label="GitHub profile"
                   >
                     <i className="icon-github" />
                   </a>

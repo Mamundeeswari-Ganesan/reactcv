@@ -23,6 +23,54 @@
   color: #61dafb;
 }
 
+.skills-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+  gap: 16px;
+  margin-top: 6px;
+}
+
+.skill-group {
+  border: 1px solid rgba(45, 68, 112, 0.12);
+  border-radius: 12px;
+  padding: 14px;
+  background: linear-gradient(180deg, #ffffff 0%, #f8fbff 100%);
+  box-shadow: 0 6px 16px rgba(28, 46, 79, 0.06);
+}
+
+.skill-group-title {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  font-size: 16px;
+  margin: 0 0 10px;
+  color: #2f3f5a;
+}
+
+.skill-group-icon {
+  color: #2c98f0;
+  font-size: 18px;
+}
+
+.skill-chip-list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+}
+
+.skill-chip {
+  display: inline-flex;
+  align-items: center;
+  padding: 5px 10px;
+  font-size: 12px;
+  font-weight: 600;
+  line-height: 1.4;
+  color: #33415c;
+  border-radius: 999px;
+  border: 1px solid rgba(44, 152, 240, 0.25);
+  background-color: #eef6ff;
+}
+
 @keyframes App-logo-spin {
   from {
     transform: rotate(0deg);
